@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+.robot{
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .simple{
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    /* display: inline-block; */
+}
+.muzammil{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    text-align:center;
+}
+.muz{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 35px;
+    font-size: 25px;
+    font-weight: 900;
+    color: transparent;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    background: linear-gradient(45deg, red,green,blue);
+    -webkit-background-clip: text;
+}
+header{
+    height: 70px;
+    width: 95%;
+    border-radius: 50px;
+    position: sticky;
+    top: 0px;
+    left: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    background-color: rgba(255, 235, 205, 0.199);
+    opacity: 0.9;
+    box-shadow: 7px 7px 20px gray;
+    backdrop-filter: blur(7px);
+    z-index: 10;
+}
+.flexitemthree{
+   display: flex;
+}
+.twochild{
+
+    position: relative;
+    left: 30px;
+    top: 8px;
+}
+.icons{
+    position: relative;
+    margin-left: 8px;
+}
+.flexitemone{
+    display: flex;
+    position: relative;
+    left: -115px;
+}
+#home{
+  margin-left:20px;
+  text-decoration: none;
+  color: rgb(10, 10, 122);
+}
+#home:hover{
+    color: purple;
+    text-decoration: underline;
+}
+#home:active{
+    color: rgb(127, 157, 255);
+}
+.headericon{
+    height: 50px;
+    border-radius: 30px;
+}
+h3{
+    position: relative;
+    top: 15px;
+    left: 8px;
+}
+#iconimg{
+     color: black;
+     transform: scale(1.4);
+}
+#iconimg:hover{
+    transform: scale(1.6);
+    color: blue;
+}
+#iconimg:active{
+    color: red;
+}
+.bluebtn{
+    width: 110px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+}
+.bluebtn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: blueviolet;
+}
+.bluebtn:active{
+    color: brown;
+}
+.navbtn{
+    width: 110px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+}
+.navbtn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: blueviolet;
+}
+.navbtn:active{
+    color: brown;
+}
+aside{
+    height: 750px;
+    position: relative;
+    top: 50px;
+    margin: 30px;
+}
+.sizeone{
+    font-weight:900;
+    font-size: 35px;
+}
+.sizetwo{
+    font-weight:900;
+    font-size: 25px;
+}
+.sizethree{
+    font-weight:900;
+    font-size: 19px;
+}
+.uclite{
+    opacity: 0.8;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration:underline ;
+    color: darkblue;
+}
+a:active{
+    color: brown;
+}
+#crown{
+    color: gold;
+    position: relative;
+    top: 123px;
+    left: -30;
+}
+#stats{
+    color: gold;
+    position: relative;
+    top: 92px;
+    left: -30px;
+}
+.crtnimg{
+    width: 800px;
+    height: 600px;
+    position: relative;
+    top: 60px;
+    left: 110px;
+}
+.peladiv{
+    width: 310px;
+    height: 310px;
+    position: relative;
+    top: 210px;
+}
+ .pelaside{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+ #pone{
+    position: relative;
+    top: 20px;
+    }
+#getstarted{
+    position: relative;
+    top: 40px;
+}
+#howitworks{
+    position: relative;
+    top: 40px;
+    left: 70px;
+    color: red;
+}
+.dosraside{
+    display: flex;
+    justify-content: center;
+    
+}
+#ucone{
+    position: relative;
+    left: 190px;
+}
+#twoh2{
+    position: relative;
+    top: 15px;
+    left: 90px;
+}
+.tesraside{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.tesradiv{
+    z-index: 9;
+    position: relative;
+    top: 180px;
+    height: 290px;
+    width: 370px;
+}
+#threeh2{
+    position: relative;
+    top: 15px;
+}
+#ptwo{
+    position: relative;
+    top: 25px;
+}
+#moreaboutus{
+    position: relative;
+    top: 40px;
+}
+#secondleft{
+    position: relative;
+    top: 90px;
+    left: -190px;
+}
+#ucthree{
+    position: relative;
+    top: 8px;
+}
+#fourh2{
+    position: relative;
+    top: 15px;
+    left: 0px;
+}
+#pthree{
+    position: relative;
+    top: 19px;
+    left: 0px;
+}
+#oneh3{
+   position: relative;
+   top: 70px;
+}
+#oneoh3{
+    position: relative;
+    top: 100px;
+}
+#pthree1{
+    position: relative;
+    top: 70px;
+}
+#pthree2{
+    position: relative;
+    top: 100px;
+}
+.panchvadiv{
+    position: relative;
+    top: -440px;
+    left: 201px;
+    width: 320px;
+    height: 396px;
+}
+#thirdright{
+    position: relative;
+    top: 60px;
+    left: 850px;
+}
+.latestdiv{
+    position: relative;
+    bottom: 50px;
+    left: 710px;
+    width: 330px;
+    height: 112px;
+    z-index: 8;
+}
+#fiveh2{
+    position: relative;
+    top: 15px;
+}
+.chotadiv{
+    position: relative;
+    top: -630px;
+    left: 180px;
+    width: 330px;
+    height: 260px;
+}
+#sixh2{
+    position: relative;
+    top: 10px;
+}
+#pfour{
+    position: relative;
+    top: 25px;
+}
+#getstartedproject{
+    position: relative;
+    top: 60px;
+}
+.nobtn{
+    position: relative;
+    top: 55px;
+    left: 40px;
+    width: 100px;
+    height: 30px;
+    border-color: red;
+    border-radius: 30px;
+    color: red;
+}
+.nobtn:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+.nobtn:active{
+    color: deeppink;
+    border-color:deeppink ;
+}
+i{
+    margin: 3px;
+}
+.activediv{
+    /* border: 1px solid green; */
+    width: 4000px;
+    height: 590px;
+    position: relative;
+    top: 109px;
+    right: 0px;
+}
+.dosradiv{
+ display: inline-block;
+}
+.navigation{
+    position: relative;
+    display: inline;
+    position: relative;
+    top: 130px;
+    left: 650px;
+}
+.same{
+    width: 340px;
+    height: 586px;
+    display: inline-block;
+    margin-left: 64px;
+    background-color: white;
+    position: relative;
+    left: 85px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(29, 30, 92, 0.678);
+}
+.same:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+    transform:translate(-20px, -20px);
+    box-shadow:  20px 20px 25px  rgba(26, 27, 80, 0.678) ;
+}
+.divp{
+display: flex;
+justify-content: center;
+position: relative;
+top: 20px;
+font-size: 20px;
+}
+.divimg{
+    width: 200px;
+    border-radius: 500px;
+    position: relative;
+    top: 40px;
+    left: 65px;
+}
+.divimg:hover{
+    opacity: 0.8;
+    background-color: red;
+}
+#actdivone{
+    position: relative;
+    bottom: 45px;
+}
+#actdivthree{
+bottom: 5px;
+}
+#actdivfour{
+    bottom: -45px;
+}
+.imgkbd{
+    position: relative;
+    top: 90px;
+    width: 200px;
+    left: 75px;
+    text-align:center;
+}
+.divklnk{
+    position: relative;
+    top: 220px;
+    left: 125px;
+    font-size: large;
+}
+.divklnk:hover{
+ color:white;
+}
+.pic{
+    width: 340px;
+    height: 586px;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(29, 30, 92, 0.678);
+}
+.over:hover{
+transform: scale(1.1);
+transform:translate(-20px, -20px);
+box-shadow:  20px 20px 25px  rgba(26, 27, 80, 0.678) ;
+}
+.pic:hover{
+    opacity: 0.6;
+    background-color: rgb(133, 0, 0);
+}
+.articlepics{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 1570px;
+        position: relative;
+        left: -140px;
+        top: 40px;
+
+}
+.panchvaside{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+#fourthright{
+    width: 700px;
+    height: 900px;
+    position: relative;
+    top: 15px;
+    left: 480px;
+}
+
+.chevaside{
+    position: relative;
+    height: 970px;
+}
+.satvaside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.maindata{
+    display: flex;
+    justify-content: space-around;
+}
+.childdata{
+    width: 290px;
+    height: 210px;
+    margin: 50px;
+    margin-top: 120px;
+    border-radius: 30px;
+    box-shadow: 15px 15px 10px rgb(90, 89, 89);
+}
+.childdata:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 20px 20px 15px rgb(90, 89, 89);
+    transform: translate(-20px, -20px);
+}
+#ucsix{
+   position: relative;
+   left: 100px;
+   bottom: 10px;
+}
+#sevenh2{
+    width: 390px;
+}
+#lande{
+    position: relative;
+    top: 20px;
+    left: 65px;
+    transform: scale(1.8);
+    color: black;
+}
+#lande:hover{
+    color:pink;
+}
+.okda{
+    text-align: center;
+}
+#pfive{
+ position: relative;
+ top: 10px;
+}
+#psix{
+    position: relative;
+    top: 10px;
+   }
+#pseven{
+    position: relative;
+    top: 10px;
+}
+.athvaside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+.lastpic{
+    width: 350px;
+    height: 250px;
+}
+.lastpic:hover{
+    transform:translate(-20px,-20px);
+    opacity: 0.7;
+    color: purple;
+}
+.forzero{
+    position: relative;
+    top: 166px;
+    right: 280px;
+    display: flex;
+    height: 347px;
+    justify-content: space-between;
+    width: 1662px;
+}
+.date{
+    position: relative;
+    top: 10px;
+}
+.datep{
+    position: relative;
+    top: 20px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.athvadiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 300px;
+    left: 430px;
+}
+.novaside{
+    background-color: rgb(30, 30, 77);
+    display:flex;
+
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+#title{
+    margin-top: 10px;
+    color: white;
+}
+#title:hover{
+    color: red;
+}
+#solution{
+    margin-top: 10px;
+    color: white;
+}
+#company{
+    margin-top: 10px;
+    color: white;
+}
+#company:hover{
+    color: red;
+}
+#solution:hover{
+    color: red;
+}
+h5{
+    font-size: 20px;
+}
+ul{
+    display: inline;
+}
+li{
+    display: inline;
+}
+#social{
+  transform: scale(1.4);
+  position: relative;
+  top: 40px;
+  left: 10px;
+  margin: 5px;
+  color: white;
+}
+#social:hover{
+    color: red;
+    transform: scale(1.7);
+}
+.analysis{
+    color: white;
+   position: relative;
+   left: 20px;
+}
+#pftrone{
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    width: 200px;
+}
+footer{
+    height: 30px;
+}
+
+      
+
+
+
+
+
+
+
